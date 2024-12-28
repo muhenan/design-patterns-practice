@@ -1,4 +1,4 @@
-## Singleton
+## 1 - Singleton
 
 最简单的单例模式：
 1. private instance
@@ -8,25 +8,25 @@
 线程安全：
 双重检验
 
-## Simple Factory
+## 1.5 - Simple Factory
 
 不在 GOF 23 之中
 
 一个 Factory，根据不同的输入，创建不同的 concrete product
 
-## Factory method
+## 2 - Factory method
 
 每个concrete factory对应一个 concrete product
 
-## Abstract Factory
+## 3 - Abstract Factory
 
 一个 Factory 可以创建多个不一样的 concrete product
 
-## Prototype
+## 4 - Prototype
 
 重点在于 clone 功能，但是现代已经很不常用了
 
-## Builder
+## 5 - Builder
 
 主要的好处：
 1. 构建复杂对象 Builder 模式最主要的优势是帮助构建复杂的对象。当一个对象有大量的属性，且大部分属性是可选的时候，Builder 模式可以让对象的构建过程更加清晰和灵活。
