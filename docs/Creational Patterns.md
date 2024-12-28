@@ -1,4 +1,4 @@
-git ## Singleton
+## Singleton
 
 最简单的单例模式：
 1. private instance
