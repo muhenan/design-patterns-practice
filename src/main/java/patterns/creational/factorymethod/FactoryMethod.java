@@ -1,4 +1,4 @@
-package patterns.factorymethod;
+package patterns.creational.factorymethod;
 
 // Product interface
 interface Transport {
